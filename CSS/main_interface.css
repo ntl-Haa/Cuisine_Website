@@ -1,0 +1,405 @@
+body{
+    margin-left: 0;
+    margin-top: 0;
+}
+#navi{
+    position: absolute;
+    height: 90px;
+    width: 1920px;
+    background-color: rgb(0, 0, 0, 0.8);
+    top: 0;
+}
+#navigation li{
+    display: inline-block;
+}
+#navigation > li >a {
+    font-weight: 550;
+    color: white;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding:0 0 0 35px;
+    line-height: 60px;
+}
+#icon{
+    position: absolute;
+    margin: -51px 0 0 1335px;
+}
+#icon > i {
+    font-size: 20px;
+    color: white;
+    margin-right: 20px;
+    margin-top: -50px;
+}
+#book{
+    position: absolute;
+    margin: -85px 0 0 1520px;
+}
+#book > p{
+    position: absolute;
+    color: white;
+    font-size: 22px;
+    font-family: monospace;
+    width: 90px;
+    height: 35px;
+    text-align: center;
+    line-height: 35px;
+    background-color: #d69c52;
+    border-radius: 10px;
+}
+
+/* <!-- -----------------Phan so 1 ---------------- */
+#next_one{
+    height: 600px;
+    width: 1920px;
+    background-color: black;
+    margin-top: -5px;
+}
+#next_one > img{
+    position: absolute;
+    border-radius: 10px;
+}
+
+#nextone-text #txt1{
+    position: absolute;
+    font-family: 'Dancing Script', cursive;;
+    color: #d69c52;
+    font-size: 25px;
+    margin: 100px 0 0 300px;
+}
+#nextone-text #txt2{
+    position: absolute;
+    font-family: 'Dancing Script', cursive;;
+    color: white;
+    font-size: 35px;
+    margin: 150px 0 0 300px;
+}
+#nextone-text #txt3{
+    position: absolute;
+    font-family: 'Dancing Script', cursive;;
+    color: white;
+    font-size: 20px;
+    width: 610px;
+    margin: 220px 0 0 300px;
+}
+#nextone-text #txt4 {
+    position: absolute;
+    font-family: 'Dancing Script', cursive;;
+    color: #d69c52;
+    font-size: 20px;
+    margin: 360px 0 0 300px;
+}
+
+/* <!-- -----------------Phan so 2 ---------------- --> */
+#next-two{
+    height: 620px;
+    width: 1920px;
+    background-color: rgb(25, 25, 25);
+}
+#next-two #slogan{
+    position: absolute;
+}
+#next-two #slogan >p {
+    color: white;
+    font-family: 'Dancing Script', cursive;
+    font-size: 35px;
+    margin: 70px 0 0 773.5px;
+}
+#next-two #slogan img{
+    position: absolute;
+   height: 45px;
+   width: 38px;
+   opacity: 0.6;
+}
+#menu-slogan{
+    margin-left: 282px;
+}
+#menu-slogan .box-img{
+    display: inline-block;
+    height: 350px;
+    width: 300px;
+    border: white solid 2px;
+    margin: 170px 0 0 30px;
+    border-radius: 10px;
+}
+.box-img .boder-menu{
+    position: absolute;
+    border-radius: 10px;
+    margin: 10px 0 0 10px;
+    width: 275px;
+    height: 325px;
+    border: #d69c52 solid 2px;
+    opacity: 0.6;
+ }
+.box-img > img{
+    height: 170px;
+    width: 170px;
+    border-radius: 3px;
+    margin: 30px 0 0 65px
+}
+.box-img .text-menu{
+    position: absolute;
+    color: white;
+    width: 280px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* !-- -----------------Phan so 3 ---------------- --> */
+#next-three{
+    height: 1100px;
+    width: 1920px;
+    background-color: black;
+    z-index: -2;
+}
+#next-three #slogan{
+    position: absolute;
+}
+#next-three #slogan >p {
+    color: white;
+    font-family: 'Dancing Script', cursive;
+    font-size: 35px;
+    margin: 70px 0 0 880px;
+}
+#next-three #slogan .img_slogan{
+    position: absolute;
+   height: 45px;
+   width: 38px;
+   opacity: 0.6;
+}
+#menu-nextthree{
+    margin: 40px 0 0 550px;
+}
+#menu-nextthree li {
+    display: inline-block;
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px 10px 10px 10px;
+    border: #fdfdfd solid 2px;
+    border-radius: 7px;
+    margin-right: 20px;
+}
+/* ---box */
+#list-menu {
+    margin-left: 252.5px;
+    margin-top: 10px;
+}
+#list-menu .list-box{
+    display: inline-block;
+    height: 350px;
+    width: 250px;
+    background-color: rgb(214, 214, 214);
+    margin: 50px 0 0 30px;
+    border-radius: 10px;
+    
+}
+.list-box .boder-menu{
+    position: absolute;
+    border-radius: 10px;
+    margin: -7px 0 0 -8px;
+    width: 250px;
+    height: 350px;
+    background-color: rgb(255, 255, 255);
+    border: #d69c52 2px solid;
+ }
+ .list-box  > img{
+    position: relative;
+    z-index: 4;
+    height: 220px;
+    width: 220px;
+    border-radius: 5px;
+    margin: 8px 0 0 8px
+}
+.list-box .text-menu{
+    position: absolute;
+    color: rgb(0, 0, 0);
+    width: 280px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: -10px;
+}
+.more-heart{
+    position: absolute;
+    width: 80px;
+    height: 40px;
+    border-top-left-radius:40px;
+    border-top-right-radius: 40px;
+    background-color: #d69c52;
+    margin: -44px 0 0 75px;
+    z-index: 9;
+}
+.btn-list{
+    position: absolute;
+    height: 40px;
+    width: 100px;
+    background-color: #d69c52;
+    margin: 90px 0 0 65px;
+    border-radius: 10px;
+    border-bottom: #b48344 solid 5px;
+}
+.btn-list > p {
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 10px;
+    letter-spacing: 1px;
+}
+
+/* <!-- -----------------Phan so 4 ---------------- --> */
+
+#next-four{
+    height: 620px;
+    width: 1920px;
+    background-color: rgb(25, 25, 25);
+}
+#next-four #slogan{
+    position: absolute;
+}
+#next-four #slogan >p {
+    color: white;
+    font-family: 'Dancing Script', cursive;
+    font-size: 35px;
+    margin: 70px 0 0 864px;
+}
+#next-four #slogan .img_slogan{
+    position: absolute;
+   height: 45px;
+   width: 38px;
+   opacity: 0.6;
+}
+
+/* ----------------------Phan so 5------------ */
+#next-five{
+    height: 650px;
+    width: 1920px;
+    background-color: black;
+    z-index: -2;
+}
+#next-five > .img-nextfive{
+    display: inline-block;
+}
+.img-nextfive > img{
+    height: 390px;
+    width: 310px;
+    margin-right: 25px;
+    margin-top: 80px;
+    border-radius: 5px;
+}
+.img-nextfive > p{
+    position: absolute;
+    color: white;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 25px 0 0 130px;
+    letter-spacing: 1px;
+}
+#line-five{
+    position: absolute;
+    width: 1px;
+    height: 80px;
+    background-color: #ffffff;
+    margin-left: 325px;
+    opacity: 0.7;
+}
+
+/* <!-- -----------------Phan so 6 ---------------- --> */
+#next-six{
+    height: 740px;
+    width: 1920px;
+    background-color: rgb(25, 25, 25);
+}
+#next-six #slogan{
+    position: absolute;
+}
+#next-six #slogan >p {
+    color: white;
+    font-family: 'Dancing Script', cursive;
+    font-size: 35px;
+    margin: 70px 0 0 915px;
+}
+#next-six #slogan .img_slogan{
+    position: absolute;
+   height: 45px;
+   width: 38px;
+   opacity: 0.6;
+}
+.new-box-list{
+    margin-left: 400px;
+}
+.new-box-list >.new-box{
+    display: inline-block;
+}
+.new-box{
+    height: 500px;
+    width: 350px;
+    background-color: rgb(0, 0, 0, 0.3);
+    margin: 170px 30px 0 0;
+    border-radius: 10px;
+}
+.text-boxsix {
+    position: absolute;
+    margin-top: 240px;
+    margin-left: 30px;
+}
+#line-six{
+    width: 250px;
+    height: 1px;
+    background-color: white;
+    opacity: 0.5;
+}
+.text-boxsix > p{
+    color: white;
+    width: 320px;
+    font-family: monospace;
+    line-height: 22px;
+}
+
+/* !-- -----------------Phan so 7 ---------------- --> */
+#next-seven{
+    height: 420px;
+    width: 1920px;
+    background-color: rgb(25, 25, 25);;
+}
+#box-seven{
+    height: 230px;
+    width: 600px;
+    background-color: rgba(26, 25, 25, 0.7);
+    position: absolute;
+    border-radius: 10px;
+    margin: -360px 0 0 300px;
+}
+#box-seven > p {
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    margin: 10px 0 0 150px;
+}
+
+/* <!-- -----------------Phan so 8 ---------------- --> */
+#next-eight{
+    margin-top: 6px;
+    height: 420px;
+    width: 1920px;
+    background-color: rgb(25, 25, 25);;
+}
+#next-eight > div {
+    display: inline-block;
+}
+#next-eight > div >p{
+    color: white;
+}
+
+#last-text-1{
+    margin: 50px 0 0 300px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#last-text-4 {
+    position: absolute;
+    margin-top: 50px;
+    font-family: Arial, Helvetica, sans-serif
+}
+#last-text-4 >i{
+    font-size: 30px;
+    margin-right: 10px;
+}
